@@ -1,1 +1,1 @@
-alert("hello, world");
+let age = 45;
