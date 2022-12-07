@@ -1,3 +1,12 @@
+// play audio
+// let song = new Audio(
+//   "Black_Sherif_Second_Sermon_Remix_Ft_Burna_Boy_9jaflaver.com_.mp3"
+// );
+// let h = document.querySelector("h1");
+// h.addEventListener("click", function () {
+//   song.play();
+// });
+
 // // let getName = prompt("What is your name? ");
 // // let getAge = prompt("What is your age? ");
 // // console.log("You're , ", getName, "and you're ", getAge, "years old.");
@@ -46,12 +55,3 @@ let email = "mario@thenetninja.co.uk";
 // let result = email.replace("m", "w");
 let result = email.replace("n", "w");
 console.log(result);
-
-// play audio
-let song = new Audio(
-  "Black_Sherif_Second_Sermon_Remix_Ft_Burna_Boy_9jaflaver.com_.mp3"
-);
-let h = document.querySelector("h1");
-h.addEventListener("click", function () {
-  song.play();
-});
