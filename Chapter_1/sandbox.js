@@ -46,3 +46,10 @@ let email = "mario@thenetninja.co.uk";
 // let result = email.replace("m", "w");
 let result = email.replace("n", "w");
 console.log(result);
+
+// play audio
+let song = new Audio("1da_Banton_No_Wahala_9jaflaver.com_-1.mp3");
+let h = document.querySelector("h1");
+h.addEventListener("mouseover", function () {
+  song.play();
+});
