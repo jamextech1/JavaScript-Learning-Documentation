@@ -48,8 +48,10 @@ let result = email.replace("n", "w");
 console.log(result);
 
 // play audio
-let song = new Audio("1da_Banton_No_Wahala_9jaflaver.com_-1.mp3");
+let song = new Audio(
+  "Black_Sherif_Second_Sermon_Remix_Ft_Burna_Boy_9jaflaver.com_.mp3"
+);
 let h = document.querySelector("h1");
-h.addEventListener("mouseover", function () {
+h.addEventListener("click", function () {
   song.play();
 });
