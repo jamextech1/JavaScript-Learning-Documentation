@@ -60,4 +60,4 @@ let likes = 10;
 /* this 👆🏽 adds 1 to the likes */
 // but there's easier way to do it, and that is
 likes++;
-console.log(likes);
+console.log(`your total likes is ${likes} in number`);
