@@ -64,9 +64,9 @@ console.log(`your total likes is ${likes} in number`);*/
 //
 //
 // TEMPLATE STRINGS Aslo called (Template literal)
-const title = "Best reads of 2019";
-const author = "Mario";
-const likes = 30;
+// const title = "Best reads of 2019";
+// const author = "Mario";
+// const likes = 30;
 //
 //
 //
@@ -84,9 +84,54 @@ const likes = 30;
 //
 //
 // CREATIN HTML TEMPLATES
-let result = `
-<h2>${title}</h2>
-<p>By ${author}</p>
-<span>Has ${likes} likes</span>
-`;
-console.log(result);
+// let result = `
+// <h2>${title}</h2>
+// <p>By ${author}</p>
+// <span>Has ${likes} likes</span>
+// `;
+// console.log(result);
+
+//
+//
+//
+//
+// ARRAYS: This is used to store multiple strings, numbers, etc, and to start, you need to input your array values into a squared brackets []. E.g;
+// let ninjas = ["shaun", "ryu", "chun-li"];
+// getting arrays
+/*console.log(ninjas);*/
+// getting single value inside arrays
+/*console.log(ninjas[1]);*/
+// overidding a value inside an array
+/*ninjas[1] = "ken";
+console.log(ninjas);*/
+//
+// ARRAYS WITH NUMBER VALUES
+//
+//We can store different data types inside an array
+//
+// let ages = [20, 25, 30, 35];
+// console.log(ages[2]);
+
+//
+//
+// MIXING NUMBERS AND STRINGS INSIDE AN ARRAY
+// let random = ["shaun", "crystal", 30, 20];
+// console.log(random[1]);
+//
+// ARRAY METHODS
+let ninjas = ["shaun", "ryu", "chun-li"];
+// JOIN: this takes the array values and join them together into one single strings, but sepearted by the symbols inputed into the argument. e.g: - , etc
+// let result = ninjas.join(",");
+//
+// indexOf: This get the index of the particular value assigned in the argument inside the array.
+// let result = ninjas.indexOf("chun-li");
+//
+// Concat: this is used to join another multiple arrays inside the existin array, just like concatenatin a strings.
+// let result = ninjas.concat(["ken", "crystal"]);
+//
+// PUSH: this pushes a new value into the array
+// let result = ninjas.push("ken");
+//
+// POP: this removes the last value inside an array
+// result = ninjas.pop();
+console.log(ninjas);
