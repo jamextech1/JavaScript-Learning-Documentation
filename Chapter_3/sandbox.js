@@ -16,10 +16,12 @@
 //
 //
 //WHILE LOOP
-const names = ["shaun", "mario", "luigi"];
-let i = 0;
-while (i < 5) {
-  let html = `<div>${names[i]}</div>`;
-  console.log(html);
-  i++;
-}
+// const names = ["shaun", "mario", "luigi"];
+// let i = 0;
+// while (i < names.length) {
+//   console.log(names[i]);
+//   i++;
+// }
+//
+//
+//DO WHILE LOOP
