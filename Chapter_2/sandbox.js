@@ -169,5 +169,5 @@ console.log(ninjas);*/
 //
 // converting string to number
 //
-let result = Number("hello"); /* which will display as not a number */
-console.log(result);
+// let result = Number("hello"); /* which will display as not a number */
+// console.log(result);
