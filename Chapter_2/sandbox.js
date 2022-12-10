@@ -63,7 +63,7 @@ S: Substraction.
 console.log(`your total likes is ${likes} in number`);*/
 //
 //
-// TEMPLATE STRINGS
+// TEMPLATE STRINGS Aslo called (Template literal)
 const title = "Best reads of 2019";
 const author = "Mario";
 const likes = 30;
@@ -71,11 +71,22 @@ const likes = 30;
 //
 //
 // CONCATENATION WAY
+// let result =
+//   "The blog called " + title + " By " + author + " has " + likes + " likes";
+// console.log(result);
 //
 //
 //
 // TEMPLATE STRING WAY
+// let result = `The blog called ${title} by ${author} has ${likes} likes`;
+// console.log(result);
 //
 //
 //
 // CREATIN HTML TEMPLATES
+let result = `
+<h2>${title}</h2>
+<p>By ${author}</p>
+<span>Has ${likes} likes</span>
+`;
+console.log(result);
