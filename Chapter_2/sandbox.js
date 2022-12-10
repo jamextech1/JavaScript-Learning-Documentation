@@ -55,9 +55,27 @@ S: Substraction.
 // console.log(result);
 
 // OTHER BASIC CALCULATION
-let likes = 10;
+// let likes = 10;
 // likes = likes + 1;
 /* this 👆🏽 adds 1 to the likes */
 // but there's easier way to do it, and that is
-likes++;
-console.log(`your total likes is ${likes} in number`);
+/*likes++;
+console.log(`your total likes is ${likes} in number`);*/
+//
+//
+// TEMPLATE STRINGS
+const title = "Best reads of 2019";
+const author = "Mario";
+const likes = 30;
+//
+//
+//
+// CONCATENATION WAY
+//
+//
+//
+// TEMPLATE STRING WAY
+//
+//
+//
+// CREATIN HTML TEMPLATES
