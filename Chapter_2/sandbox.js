@@ -119,7 +119,7 @@ console.log(ninjas);*/
 // console.log(random[1]);
 //
 // ARRAY METHODS
-let ninjas = ["shaun", "ryu", "chun-li"];
+// let ninjas = ["shaun", "ryu", "chun-li"];
 // JOIN: this takes the array values and join them together into one single strings, but sepearted by the symbols inputed into the argument. e.g: - , etc
 // let result = ninjas.join(",");
 //
@@ -134,4 +134,4 @@ let ninjas = ["shaun", "ryu", "chun-li"];
 //
 // POP: this removes the last value inside an array
 // result = ninjas.pop();
-console.log(ninjas);
+// console.log(ninjas);
