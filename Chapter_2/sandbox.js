@@ -135,3 +135,25 @@ console.log(ninjas);*/
 // POP: this removes the last value inside an array
 // result = ninjas.pop();
 // console.log(ninjas);
+//
+// BOOLEAN
+// let email = "luigi@thenetninja.co.uk";
+// let names = ["mario", "luigi", "toad"];
+// let result = names.includes("luigi");
+// console.log(result);
+//
+//
+// LOOSE VS STRICT COMPARISONS
+// e.g of loose comparisons
+
+// let age = 25;
+// console.log(age == 25);
+// console.log(age == "25");
+// console.log(age != 25);
+// console.log(age != "25");
+//
+// e.g of strict comparisons
+// console.log(age === 25);
+// console.log(age === "25");
+// console.log(age !== 25);
+// console.log(age !== "25");
