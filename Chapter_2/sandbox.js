@@ -9,8 +9,8 @@
 
 // NUMBERS
 // we can use number variables to store age, year.
-let radius = 10;
-const pi = 3.14;
+// let radius = 10;
+// const pi = 3.14;
 // console.log(radius, pi);
 
 // what we can do with numbers
@@ -61,18 +61,3 @@ let likes = 10;
 // but there's easier way to do it, and that is
 likes++;
 console.log(`your total likes is ${likes} in number`);
-const person = [
-  {
-    firstName: "Okoro",
-    lastName: "James",
-    age: 18,
-    dateOfBirth: "08-06-2004",
-    address: {
-      street: "Nwaziki str",
-      city: "Onitsha",
-      state: "Anambra",
-      country: "Nigeria",
-    },
-  },
-];
-console.log(person.dateOfBirth);
