@@ -157,3 +157,17 @@ console.log(ninjas);*/
 // console.log(age === "25");
 // console.log(age !== 25);
 // console.log(age !== "25");
+//
+//
+// TYPE CONVERSION: This is basically coverting a data type to another data type, e.g converting a string to numnber.
+// let score = "100";
+
+// score = Number(score);
+// console.log(score + 1);
+// // checking the type of data type
+// console.log(typeof score);
+//
+// converting string to number
+//
+let result = Number("hello"); /* which will display as not a number */
+console.log(result);
