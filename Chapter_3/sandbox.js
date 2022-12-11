@@ -25,3 +25,9 @@
 //
 //
 //DO WHILE LOOP
+let x = "hello";
+if (x === "hello world") {
+  console.log(`${x}`);
+} else {
+  console.log(`hello world`);
+}
