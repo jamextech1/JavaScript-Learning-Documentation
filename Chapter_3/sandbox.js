@@ -25,3 +25,39 @@
 //
 //
 //DO WHILE LOOP
+// let i = 0;
+// do {
+//   console.log("in loop", i);
+//   i++;
+// } while (i < 5);
+//
+//
+// CONDITIONALS IF, ELSE, ELSE IF.
+//
+// if statement
+//
+// let age = 25;
+// if (age > 20) {
+//   console.log("You're above 20 years old");
+// }
+//
+// else statement
+//
+// let pass = "pass";
+// if (pass.length >= 8) {
+//   console.log("Your password is long enough");
+// } else {
+//   console.log("Your password is not long enough");
+// }
+//
+//
+// else if statement
+//
+// let pass = "passwor";
+// if (pass.length >= 12) {
+//   console.log("Your password is mighty strong one");
+// } else if (pass.length >= 8) {
+//   console.log("Your password is long enough");
+// } else {
+//   console.log("Your password is not long enough");
+// }
