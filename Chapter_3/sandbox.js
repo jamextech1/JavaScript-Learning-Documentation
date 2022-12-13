@@ -61,3 +61,19 @@
 // } else {
 //   console.log("Your password is not long enough");
 // }
+let characters = ["@", "#", "&"];
+let password = "password";
+if (password.length > 8 && password.includes(characters)) {
+  console.log("Your password is very strong oo");
+} else if (
+  (password.length >= 5 && password.includes("$")) ||
+  (password.length === 3 && password.includes(characters))
+) {
+  console.log("Your password is still strong anyway");
+} else if (password.length > 5) {
+  console.log("Your password is long but not strong enough");
+} else {
+  console.log(
+    `Shey you dey whine me niiii, incrase password jaree stop using ${password.length} of password`
+  );
+}
