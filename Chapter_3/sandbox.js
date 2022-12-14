@@ -139,3 +139,7 @@ switch (grade) {
 }
 // so the default is just like an else statement, meaning that it only works when the cases dosen't match
 // NOW: By default, in this code, once it meets the correct case, it'll also run the rest of the code that doesen't meet the correct case, so to correct this, we need to use break to make the coding running stop once it meets the demand, Also: the default case which should be the final case, shouldn't have the break.
+// ALSO REMEMBER: switch case uses strict comparison, i.e ===, !==, etc
+//
+//
+// VARIABLES AND BLOCK SCOPE.
