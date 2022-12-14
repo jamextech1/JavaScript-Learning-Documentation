@@ -64,15 +64,31 @@
 //
 // LOGICAL OPERATORS OR || and AND &&
 //
-const password = "p@ass";
+// const password = "p@ass";
 
-if (password.length >= 12 && password.includes("@")) {
-  console.log(`Your password is mighty strong`);
-} else if (
-  password.length >= 8 ||
-  (password.includes("@") && password.length > 5)
-) {
-  console.log(`That password is strong enough`);
-} else {
-  console.log(`password is not strong enough`);
-}
+// if (password.length >= 12 && password.includes("@")) {
+//   console.log(`Your password is mighty strong`);
+// } else if (
+//   password.length >= 8 ||
+//   (password.includes("@") && password.length >= 5)
+// ) {
+//   console.log(`That password is strong enough`);
+// } else {
+//   console.log(`password is not strong enough`);
+// }
+//
+//
+// LOGICSL NOT  👉🏽 ! OPERATORS
+// let user = false;
+// if (!user) {
+//   console.log("You must be logged in to continue");
+// }
+// console.log(!true);
+// console.log(!false);
+// // second check
+// if ((user = !user)) {
+//   console.log(`You must be ${user} to log in`);
+// }
+//
+//
+// Break and Continue (related to loop)
