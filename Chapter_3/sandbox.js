@@ -92,3 +92,17 @@
 //
 //
 // Break and Continue (related to loop)
+// let scores = [50, 25, 0, 30, 100, 20, 10];
+// for (let i = 0; i < scores.length; i++) {
+//   if (scores[i] === 0) {
+//     continue;
+//   }
+//   console.log(`Your score is ${scores[i]}`);
+//   if (scores[i] === 100) {
+//     console.log(`Congrats, you got the Top score`);
+//     break;
+//   }
+// }
+// so the break statement there means that if the score reaches 100 (which is see as highest), then it should break the out from the loop,
+
+// meanwhile the continue is just if the score is 0 then it should ignore the zero and move back to continue iteration.
