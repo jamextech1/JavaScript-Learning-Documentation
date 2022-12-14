@@ -143,3 +143,16 @@
 //
 //
 // VARIABLES AND BLOCK SCOPE.
+const age = 30;
+if (true) {
+  // age = 40;
+  const age = 40;
+  const name = "shaun";
+  console.log(`Inside 1st code block ${age}, ${name}`);
+
+  if (true) {
+    const age = 50;
+    console.log(`Inside 2nd code block ${age}`);
+  }
+}
+console.log(`Outside cod block ${age}, ${name}`);
