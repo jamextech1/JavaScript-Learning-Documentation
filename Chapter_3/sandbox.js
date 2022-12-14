@@ -106,3 +106,36 @@
 // so the break statement there means that if the score reaches 100 (which is see as highest), then it should break the out from the loop,
 
 // meanwhile the continue is just if the score is 0 then it should ignore the zero and move back to continue iteration.
+//
+//
+// SWITCH STATEMENTS : this helps us limit the number of else if statement.
+let grade = "D";
+// for instance using if statment
+if (grade === "B") {
+} else if (grade === "C") {
+} else if (grade === "D") {
+} else if (grade === "E") {
+}
+//
+// using switch statement
+switch (grade) {
+  case "A":
+    console.log(`You got an A`);
+    break;
+  case "B":
+    console.log(`You got a B`);
+    break;
+  case "C":
+    console.log(`You got a C`);
+    break;
+  case "D":
+    console.log(`You got a D`);
+    break;
+  case "E":
+    console.log(`You got an E`);
+    break;
+  default:
+    console.log(`Not valid grade`);
+}
+// so the default is just like an else statement, meaning that it only works when the cases dosen't match
+// NOW: By default, in this code, once it meets the correct case, it'll also run the rest of the code that doesen't meet the correct case, so to correct this, we need to use break to make the coding running stop once it meets the demand, Also: the default case which should be the final case, shouldn't have the break.
