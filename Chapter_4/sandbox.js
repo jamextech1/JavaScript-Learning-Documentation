@@ -21,4 +21,21 @@
 // speak();
 
 // Using function declaration, you can call your functions before or after the function command code, WHILE: using a function expression, you can only call your function after the function command code.
-conso.log("hello");
+//
+// Argument and Parameters
+// const speak = function (name = "Mario", time = "Night") {
+//   console.log(`Good ${time} ${name}`);
+// };
+// speak();
+//
+//
+// function myApp() {
+//   let myArrays = ["James", "John", "Doe", "Mario"];
+//   for (let i = 0; i < myArrays.length; i++) {
+//     if (myArrays[i] === "Doe") {
+//       continue;
+//     }
+//     console.log(`My Name is ${myArrays[i]}`);
+//   }
+// }
+// myApp();
