@@ -21,3 +21,4 @@
 // speak();
 
 // Using function declaration, you can call your functions before or after the function command code, WHILE: using a function expression, you can only call your function after the function command code.
+conso.log("hello");
