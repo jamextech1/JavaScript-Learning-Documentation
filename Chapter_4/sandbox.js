@@ -32,8 +32,9 @@
 // function myApp() {
 //   let myArrays = ["James", "John", "Doe", "Mario"];
 //   for (let i = 0; i < myArrays.length; i++) {
-//     if (myArrays[i] === "Doe") {
-//       continue;
+//     switch (myArrays[i]) {
+//       case "Doe":
+//         continue;
 //     }
 //     console.log(`My Name is ${myArrays[i]}`);
 //   }

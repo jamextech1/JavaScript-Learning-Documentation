@@ -118,6 +118,7 @@
 // }
 //
 // using switch statement
+// so the switch statement is just like the if statement, for instance switch(grade){case 10} is just like if(grade === 10){}.
 // switch (grade) {
 //   case "A":
 //     console.log(`You got an A`);
