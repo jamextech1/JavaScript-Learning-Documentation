@@ -49,8 +49,21 @@
 // console.log(area);
 //
 // ARROW FUNCTIONS
-const calcArea = (radius) => {
-  return 3.14 * radius ** 2;
-};
-const area = calcArea(5);
-console.log(area);
+// const calcArea = (radius) => {
+//   return 3.14 * radius ** 2;
+// };
+// const area = calcArea(5);
+// console.log(`Area is ${area}`);
+//
+// Looping through arrow function
+// const product = (products, tax) => {
+//   let total = 0;
+//   for (let i = 0; i < products.length; i++) {
+//     total += products[i] + products[i] * tax;
+//   }
+//   return total;
+// };
+// let total = product([10, 15, 30], 0.2);
+// console.log(total);
+//
+// FUNCTION VS METHOD
