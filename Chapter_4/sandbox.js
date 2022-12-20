@@ -1,3 +1,27 @@
+// let myArrays = [
+//   {
+//     firstName: "Okoro",
+//     lastName: "James",
+//     stack: "Frontend stacks",
+//   },
+//   {
+//     firstName: "Jaek",
+//     lastName: "Dev",
+//     stack: "Fullstack",
+//   },
+// ];
+// for (let i = 0; i < myArrays.length; i++) {
+//   console.log(
+//     myArrays.concat([
+//       {
+//         firstName: "Jamex",
+//         lastName: "Tech",
+//         stck: "Blogger",
+//       },
+//     ])
+//   );
+// }
+
 // FUNCTION DECLARATION : this is setting up a function normally and calling it out.
 // function greet() {
 //   console.log(`Hello there`);
@@ -68,26 +92,3 @@
 //
 //
 // FUNCTION VS METHOD
-let myArrays = [
-  {
-    firstName: "Okoro",
-    lastName: "James",
-    stack: "Frontend stacks",
-  },
-  {
-    firstName: "Jaek",
-    lastName: "Dev",
-    stack: "Fullstack",
-  },
-];
-for (let i = 0; i < myArrays.length; i++) {
-  console.log(
-    myArrays.concat([
-      {
-        firstName: "Jamex",
-        lastName: "Tech",
-        stck: "Blogger",
-      },
-    ])
-  );
-}
