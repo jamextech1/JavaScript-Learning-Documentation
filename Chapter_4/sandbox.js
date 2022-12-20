@@ -116,7 +116,7 @@
 // });
 //
 // for each
-let people = ["mario", "lugi", "ryu", "shaun", "chun-li"];
+// let people = ["mario", "lugi", "ryu", "shaun", "chun-li"];
 // using normal function
 // people.forEach(function (person) {
 //   console.log(person);
@@ -126,3 +126,13 @@ let people = ["mario", "lugi", "ryu", "shaun", "chun-li"];
 // people.forEach((person) => {
 //   console.log(person);
 // });
+//
+//
+// Call back function in action
+const ul = document.querySelector(".people");
+let html = ``;
+let people = ["mario", "lugi", "ryu", "shaun", "chun-li"];
+people.forEach((person) => {
+  html += `<li style = "color: blue;">${person}</li>`;
+  ul.innerHTML = html;
+});
