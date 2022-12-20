@@ -92,3 +92,37 @@
 //
 //
 // FUNCTION VS METHOD
+// const name = "shaun";
+
+// // function
+// const greet = () => "hello";
+// let resultOne = greet();
+// console.log(resultOne);
+
+// // method
+// let resultTwo = name.toUpperCase();
+// console.log(resultTwo);
+
+// callback & foreach
+// const myFunc = (callBackFunc) => {
+//   let value = 50;
+//   callBackFunc(value);
+// };
+// myFunc(function (value) {
+//   console.log(value);
+// });
+// myFunc((value) => {
+//   console.log(value);
+// });
+//
+// for each
+let people = ["mario", "lugi", "ryu", "shaun", "chun-li"];
+// using normal function
+// people.forEach(function (person) {
+//   console.log(person);
+// });
+//
+// using arrow function
+// people.forEach((person) => {
+//   console.log(person);
+// });
