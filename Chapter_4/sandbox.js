@@ -67,5 +67,6 @@
 // console.log(total);
 //
 //
+let name = "hello";
 console.log("hello word");
 // FUNCTION VS METHOD
