@@ -68,5 +68,5 @@
 //
 //
 let name = "hello";
-console.log("hello word");
+console.log(`Hello ${name === "hello"}`);
 // FUNCTION VS METHOD
