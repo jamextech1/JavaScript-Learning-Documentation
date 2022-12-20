@@ -67,6 +67,27 @@
 // console.log(total);
 //
 //
-let name = "hello";
-console.log(`Hello ${name === "hello"}`);
 // FUNCTION VS METHOD
+let myArrays = [
+  {
+    firstName: "Okoro",
+    lastName: "James",
+    stack: "Frontend stacks",
+  },
+  {
+    firstName: "Jaek",
+    lastName: "Dev",
+    stack: "Fullstack",
+  },
+];
+for (let i = 0; i < myArrays.length; i++) {
+  console.log(
+    myArrays.concat([
+      {
+        firstName: "Jamex",
+        lastName: "Tech",
+        stck: "Blogger",
+      },
+    ])
+  );
+}
