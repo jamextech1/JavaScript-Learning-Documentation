@@ -52,4 +52,10 @@ paras.forEach((para) => {
 //
 const content = document.querySelector(".content");
 // console.log(content.innerHTML);
-content.innerHTML += "<h1>Hello World</h1>";
+// content.innerHTML += "<h2>This is a new h2</h2>";
+//
+//
+const people = ["mario", "lugi", "yoshi"];
+people.forEach((person) => {
+  content.innerHTML += `<p>${person}</p>`;
+});
