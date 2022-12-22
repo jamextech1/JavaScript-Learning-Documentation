@@ -37,8 +37,19 @@ console.log(paras);*/
 //
 //
 // Adding and chnaging content
-const para = document.querySelector("p");
+/*const para = document.querySelector("p");
 // innerText display the text inside the element we selected
 // console.log(para.innerText);
 // updating the innerText
 para.innerText = "Ninjas are awesome";
+
+const paras = document.querySelectorAll("p");
+paras.forEach((para) => {
+  para.innerText += " new text";
+});*/
+//
+// Changing the html elements
+//
+const content = document.querySelector(".content");
+// console.log(content.innerHTML);
+content.innerHTML += "<h1>Hello World</h1>";
