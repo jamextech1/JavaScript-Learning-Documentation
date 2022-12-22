@@ -32,14 +32,23 @@ let user = {
   age: 30,
   email: "crystal@thennetninja.co.uk",
   location: "berlin",
-  blogs: ["why mac & cheese rules", "10 things to make with marmite"],
+  blogs: [
+    {
+      title: "why mac & cheese rules",
+      likes: 30,
+    },
+    {
+      title: "10 things to make with marmite",
+      likes: 50,
+    },
+  ],
   logIn: function () {
     console.log("This user has login");
   },
   logOut: function () {
     console.log("This user has logout");
   },
-  logBlogs: function () {
+  logBlogs() {
     // the best way to call out the blog in this user object, is by using the 'this' keyword.
     // using the normal command.
     // console.log(user.blogs);
@@ -47,7 +56,7 @@ let user = {
     // using the 'this' keyword
     console.log(`This user has written the following blogs:`);
     this.blogs.forEach((blog) => {
-      console.log(blog);
+      console.log(`${blog.title} with ${blog.likes} likes`);
     });
   },
 };
