@@ -65,20 +65,37 @@
 // user.logOut();
 //
 // MATH OBJECT
-console.log(Math);
+/*console.log(Math);
 console.log(Math.PI);
 console.log(Math.E);
 const area = 7.7;
 console.log(Math.round(area));
 console.log(Math.floor(area));
 console.log(Math.ceil(area));
-console.log(Math.trunc(area));
+console.log(Math.trunc(area));*/
 // GENERATING RANDOM NUMBERS USING MATH OBJECT
-const random = Math.random();
+/*const random = Math.random();
 console.log(random);
 //
 // generating radom number between 0 and 1
 console.log(Math.round(random));
 //
 // generating random number between 0 and 100
-console.log(Math.round(random * 100));
+console.log(Math.round(random * 100));*/
+//
+// PRIMITIVE VALUES
+//
+/*let scoreOne = 50;
+let scoreTwo = scoreOne;
+console.log(`scoreOne: ${scoreOne}, scoreTwo: ${scoreTwo}`);
+scoreOne = 100;
+console.log(`scoreOne: ${scoreOne}, scoreTwo: ${scoreTwo}`);*/
+//
+//
+// Reference values
+//
+/*const userOne = { name: "ryu", age: 30 };
+const userTwo = userOne;
+console.log(userOne, userTwo);
+userOne.age = 40;
+console.log(userOne, userTwo);*/
