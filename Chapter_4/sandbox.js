@@ -129,10 +129,10 @@
 //
 //
 // Call back function in action
-const ul = document.querySelector(".people");
-let html = ``;
-let people = ["mario", "lugi", "ryu", "shaun", "chun-li"];
-people.forEach((person) => {
-  html += `<li style = "color: blue;">${person}</li>`;
-  ul.innerHTML = html;
-});
+// const ul = document.querySelector(".people");
+// let html = ``;
+// let people = ["mario", "lugi", "ryu", "shaun", "chun-li"];
+// people.forEach((person) => {
+//   html += `<li style = "color: blue;">${person}</li>`;
+//   ul.innerHTML = html;
+// });
