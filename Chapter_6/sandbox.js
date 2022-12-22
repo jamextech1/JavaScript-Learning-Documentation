@@ -32,3 +32,13 @@ console.log(errors);
 // // get an element by tagName
 const paras = document.getElementsByTagName("p");
 console.log(paras);*/
+//
+//
+//
+//
+// Adding and chnaging content
+const para = document.querySelector("p");
+// innerText display the text inside the element we selected
+// console.log(para.innerText);
+// updating the innerText
+para.innerText = "Ninjas are awesome";
