@@ -26,6 +26,11 @@
 // console.log(typeof user);
 //
 //
+//
+//
+//
+//
+//
 // ADDING METHOD TO THE OBJECT LITERALS
 /*let user = {
   name: "crystal",
@@ -64,6 +69,10 @@
 // user.logIn();
 // user.logOut();
 //
+//
+//
+//
+//
 // MATH OBJECT
 /*console.log(Math);
 console.log(Math.PI);
@@ -82,6 +91,10 @@ console.log(Math.round(random));
 //
 // generating random number between 0 and 100
 console.log(Math.round(random * 100));*/
+//
+//
+//
+//
 //
 // PRIMITIVE VALUES
 //
