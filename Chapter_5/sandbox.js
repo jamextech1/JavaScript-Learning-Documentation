@@ -39,7 +39,18 @@ let user = {
   logOut: function () {
     console.log("This user has logout");
   },
-  logBlogs: function () {},
+  logBlogs: function () {
+    // the best way to call out the blog in this user object, is by using the 'this' keyword.
+    // using the normal command.
+    // console.log(user.blogs);
+    //
+    // using the 'this' keyword
+    console.log(`This user has written the following blogs:`);
+    this.blogs.forEach((blog) => {
+      console.log(blog);
+    });
+  },
 };
+user.logBlogs();
 user.logIn();
 user.logOut();
