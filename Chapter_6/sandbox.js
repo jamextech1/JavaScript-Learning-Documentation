@@ -87,3 +87,13 @@ click.addEventListener("click", function () {
     click.innerText = "hello";
   }
 });*/
+//
+//
+//
+//
+//Changing css styles using DOM
+const title = document.querySelector("h1");
+// so using the setAttribute and styling the element will completely override the already existing styles.
+// title.setAttribute("style", "margin: 50px");
+//
+// using the javascript style property is the alternative way to style the element without overriding the already existing styles.
