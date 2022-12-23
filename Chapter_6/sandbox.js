@@ -79,9 +79,9 @@ const click = document.querySelector(".click-this");
 // console.log(click);
 click.addEventListener("click", function () {
   if (click.innerText === "hello") {
-    click.innerText = "You clicked me";
+    click.innerHTML = `<span>Hi, </span>You clicked me`;
     put.innerText = newText;
-  } else if (click.innerText === "You clicked me") {
+  } else if (click.innerHTML === click.innerHTML) {
     click.innerText = "hello";
   }
 });
