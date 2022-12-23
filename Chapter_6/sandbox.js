@@ -74,11 +74,13 @@ mssg.innerText = "success";
 mssg.setAttribute("style", "color: green;");
 //
 //
+const newText = "Hi, ";
 const click = document.querySelector(".click-this");
 // console.log(click);
 click.addEventListener("click", function () {
   if (click.innerText === "hello") {
     click.innerText = "You clicked me";
+    put.innerText = newText;
   } else if (click.innerText === "You clicked me") {
     click.innerText = "hello";
   }
