@@ -62,7 +62,9 @@ people.forEach((person) => {
 //
 //
 //
-// geting and setting attribute
+//
+//
+/*// geting and setting attribute
 const link = document.querySelector("a");
 console.log(link.getAttribute("href"));
 link.setAttribute("href", "https://www.thenetninja.co.uk");
@@ -84,4 +86,4 @@ click.addEventListener("click", function () {
   } else if (click.innerHTML === click.innerHTML) {
     click.innerText = "hello";
   }
-});
+});*/
