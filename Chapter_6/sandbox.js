@@ -70,4 +70,16 @@ link.innerText = "The netNinja Website";
 const mssg = document.querySelector(".error");
 console.log(mssg.getAttribute("class"));
 mssg.setAttribute("class", "success");
+mssg.innerText = "success";
 mssg.setAttribute("style", "color: green;");
+//
+//
+const click = document.querySelector(".click-this");
+// console.log(click);
+click.addEventListener("click", function () {
+  if (click.innerText === "hello") {
+    click.innerText = "You clicked me";
+  } else if (click.innerText === "You clicked me") {
+    click.innerText = "hello";
+  }
+});
