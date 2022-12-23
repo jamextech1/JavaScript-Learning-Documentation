@@ -62,6 +62,7 @@ people.forEach((person) => {
 //
 //
 //
+// geting and setting attribute
 const link = document.querySelector("a");
 console.log(link.getAttribute("href"));
 link.setAttribute("href", "https://www.thenetninja.co.uk");
