@@ -102,4 +102,3 @@ console.log(title.style.color);
 title.style.margin = "50px";
 title.style.color = "crimson";
 title.style.fontSize = "60px";
-title.style.margin = "";
