@@ -117,7 +117,7 @@ function addContent(e) {
     
     `;
   } else {
-    wish.innerHTML = `
+    wish.innerHTML += `
     
     <p>Good Day ${inputValue}</p>
     
