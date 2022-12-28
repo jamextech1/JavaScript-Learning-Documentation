@@ -92,7 +92,7 @@ click.addEventListener("click", function () {
 //
 //
 //Changing css styles using DOM
-const title = document.querySelector("h1");
+/*const title = document.querySelector("h1");
 // so using the setAttribute and styling the element will completely override the already existing styles.
 // title.setAttribute("style", "margin: 50px");
 //
@@ -102,4 +102,26 @@ console.log(title.style.color);
 title.style.margin = "50px";
 title.style.color = "crimson";
 title.style.fontSize = "60px";
-title.style.margin = "";
+title.style.margin = "";*/
+//
+//
+//
+// ADING AND REMOVING CLASSES
+// const content = document.querySelector("p");
+// console.log(content.classList);
+//
+//
+// ASSIGNMENT
+const paragraphs = document.querySelectorAll("p");
+paragraphs.forEach((paragraph) => {
+  if (paragraph.textContent.includes("success")) {
+    paragraph.classList.add("success");
+  } else if (paragraph.textContent.includes("error")) {
+    paragraph.classList.add("error");
+  } else if (
+    paragraph.textContent.includes("error") &&
+    paragraph.textContent.includes("success")
+  ) {
+    paragraph.classList.add("error", "success");
+  }
+});
