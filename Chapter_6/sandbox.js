@@ -103,25 +103,3 @@ title.style.margin = "50px";
 title.style.color = "crimson";
 title.style.fontSize = "60px";
 title.style.margin = "";
-const wish = document.querySelector(".wishMe");
-const btn = document.querySelector(".btn");
-btn.addEventListener("click", addContent);
-function addContent(e) {
-  const inputValue = document.querySelector("input").value;
-  e.preventDefault();
-
-  if (inputValue === "") {
-    wish.innerHTML = `
-    
-    <p>Please Enter Your Name</p>
-    
-    `;
-  } else {
-    wish.innerHTML += `
-    
-    <p>Good Day ${inputValue}</p>
-    
-    `;
-    document.querySelector("input").value = "";
-  }
-}
