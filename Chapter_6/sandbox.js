@@ -125,3 +125,4 @@ paragraphs.forEach((paragraph) => {
     paragraph.classList.add("error", "success");
   }
 });
+const title = document.querySelector("title");
