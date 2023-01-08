@@ -112,7 +112,7 @@ title.style.margin = "";*/
 //
 //
 // ASSIGNMENT
-const paragraphs = document.querySelectorAll("p");
+/*const paragraphs = document.querySelectorAll("p");
 paragraphs.forEach((paragraph) => {
   if (paragraph.textContent.includes("success")) {
     paragraph.classList.add("success");
@@ -125,4 +125,21 @@ paragraphs.forEach((paragraph) => {
     paragraph.classList.add("error", "success");
   }
 });
-const title = document.querySelector("title");
+const title = document.querySelector("title");*/
+//
+//
+//
+//
+const article = document.querySelector("article");
+// console.log(article.children)
+// console.log(Array.from(article.children));
+/*Array.from(article.children).forEach((child) => {
+  child.classList.add("aritcle-element");
+});*/
+//
+// GETTING OF PARENT ELEMENTS AND SIBLINGS
+const title = document.querySelector(".title");
+console.log(title.parentElement);
+console.log(title.parentElement.parentElement);
+console.log(title.nextElementSibling);
+console.log(title.previousElementSibling);
