@@ -116,7 +116,7 @@ const paragraphs = document.querySelectorAll("p");
 paragraphs.forEach((paragraph) => {
   if (paragraph.textContent.includes("success")) {
     paragraph.classList.add("success");
-  } else if (paragraph.textContent.includes("error")) {
+  } else if (paragraph.innerText.includes("error")) {
     paragraph.classList.add("error");
   } else if (
     paragraph.textContent.includes("error") &&
