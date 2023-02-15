@@ -133,13 +133,13 @@ const title = document.querySelector("title");*/
 const article = document.querySelector("article");
 // console.log(article.children)
 // console.log(Array.from(article.children));
-/*Array.from(article.children).forEach((child) => {
-  child.classList.add("aritcle-element");
-});*/
-//
-// GETTING OF PARENT ELEMENTS AND SIBLINGS
-const title = document.querySelector(".title");
-console.log(title.parentElement);
-console.log(title.parentElement.parentElement);
-console.log(title.nextElementSibling);
-console.log(title.previousElementSibling);
+// console.log(article.children)
+// Array.from(article.children).forEach(child => {
+//   child.classList.add('article-elements')
+// })
+const title = document.querySelector('h2')
+console.log(title.parentElement.parentElement)
+console.log(title.nextElementSibling)
+console.log(title.previousElementSibling)
+// 
+console.log(title.nextElementSibling.parentElement.children)
