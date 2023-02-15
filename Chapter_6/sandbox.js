@@ -152,11 +152,24 @@ console.log(title.nextElementSibling.parentElement.children)*/
 // button.addEventListener('click', () => {
 //   console.log("you clicked me!")
 // })
+const ul = document.querySelector('ul')
+// ul.remove()
 const items = document.querySelectorAll('li')
+const button = document.querySelector('button')
+// 
+button.addEventListener('click', () => {
+  // ul.innerHTML += `<li>Something new</li>`
+  const li = document.createElement('li')
+  li.textContent = 'Something new'
+  // ul.append(li)
+  ul.prepend(li)
+})
+// 
 items.forEach(item => {
   item.addEventListener('click', (e) => {
     // console.log(e.target)
     // console.log(item)
-    e.target.style.textDecoration = "line-through"
+    // e.target.style.textDecoration = "line-through"
+    e.target.remove()
   })
 })
