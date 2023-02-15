@@ -130,7 +130,7 @@ const title = document.querySelector("title");*/
 //
 //
 //
-const article = document.querySelector("article");
+/*const article = document.querySelector("article");
 // console.log(article.children)
 // console.log(Array.from(article.children));
 // console.log(article.children)
@@ -142,4 +142,21 @@ console.log(title.parentElement.parentElement)
 console.log(title.nextElementSibling)
 console.log(title.previousElementSibling)
 // 
-console.log(title.nextElementSibling.parentElement.children)
+console.log(title.nextElementSibling.parentElement.children)*/
+//
+//
+// CLICK EVENTS AND FUNCTION
+//
+//
+// const button = document.querySelector('button')
+// button.addEventListener('click', () => {
+//   console.log("you clicked me!")
+// })
+const items = document.querySelectorAll('li')
+items.forEach(item => {
+  item.addEventListener('click', (e) => {
+    // console.log(e.target)
+    // console.log(item)
+    e.target.style.textDecoration = "line-through"
+  })
+})
