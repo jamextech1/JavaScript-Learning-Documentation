@@ -152,7 +152,7 @@ console.log(title.nextElementSibling.parentElement.children)*/
 // button.addEventListener('click', () => {
 //   console.log("you clicked me!")
 // })
-const ul = document.querySelector('ul')
+/*const ul = document.querySelector('ul')
 // ul.remove()
 const items = document.querySelectorAll('li')
 const button = document.querySelector('button')
@@ -173,8 +173,34 @@ button.addEventListener('click', () => {
     e.target.remove()
   })
 })*/
-ul.addEventListener('click', (e) => {
+/*ul.addEventListener('click', (e) => {
   if (e.target.tagName === 'li') {
     e.target.remove()
   }
+})*/
+//
+// MORE DOM EVENTS
+//
+// COPY EVENT
+// 
+const copy = document.querySelector('.copy-me')
+copy.addEventListener('copy', () => {
+  console.log('oi, my content is copyright')
+})
+//
+// MOUSE MOVE EVENT
+// 
+const box = document.querySelector('.box')
+box.addEventListener('mousemove', (e) => {
+  // console.log(e)
+  // console.log(`offsetX ${e.offsetX}`)
+  // console.log(`offsetY ${e.offsetY}`)
+  box.textContent = `x pos - ${e.offsetX}   y pos - ${e.offsetY}`
+})
+//
+//
+// SCROLL EVENT
+// 
+document.addEventListener('wheel', (e) => {
+  console.log(e.pageX, e.pageY)
 })
