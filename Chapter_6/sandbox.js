@@ -164,12 +164,17 @@ button.addEventListener('click', () => {
   // ul.append(li)
   ul.prepend(li)
 })
-// 
-items.forEach(item => {
+//
+/*items.forEach(item => {
   item.addEventListener('click', (e) => {
     // console.log(e.target)
     // console.log(item)
     // e.target.style.textDecoration = "line-through"
     e.target.remove()
   })
+})*/
+ul.addEventListener('click', (e) => {
+  if (e.target.tagName === 'li') {
+    e.target.remove()
+  }
 })
