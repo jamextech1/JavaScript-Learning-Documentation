@@ -1,14 +1,22 @@
-body{
+body {
   background: #eee;
 }
-form{
+form {
   max-width: 200px;
   margin: 40px auto;
   background: white;
   padding: 10px;
 }
-input{
+input {
   display: block;
   margin: 10px auto;
   padding: 4px;
+}
+.form--success {
+  border: 1.3px solid rgb(3, 53, 3);
+  outline: 0;
+}
+.form--failed {
+  border: 1.3px solid rgb(240, 0, 0);
+  outline: 0;
 }
