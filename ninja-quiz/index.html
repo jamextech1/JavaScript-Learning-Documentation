@@ -10,6 +10,7 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
 
     <title>Document</title>
   </head>
@@ -20,11 +21,89 @@
         <h2 class="text-primary display-3 my-4">Ninja Quiz</h2>
       </div>
     </div>
+    <!-- display score -->
+    <div class="result py-4 bg-light text-center">
+      <div class="container lead">
+        <p>
+          You're&nbsp;<span
+            class="display-4 text-primary p-3 result--score"
+          ></span
+          >&nbsp;Ninja
+        </p>
+      </div>
+    </div>
     <!-- quiz section -->
     <div class="quiz py-4 bg-primary">
       <div class="container">
         <h2 class="text-white my-4">On with the questions...</h2>
-        <form class="quiz-form text-light"></form>
+        <form class="quiz-form text-light">
+          <!-- question 1 -->
+          <div class="my-5">
+            <p class="lead fw-normal">1. How do you give a ninja directions?</p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q1" value="A" checked />
+              <label class="form-cehck-label">Show them a map</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q1" value="B" />
+              <label class="form-cehck-label"
+                >Don't worry, a ninja wil find you</label
+              >
+            </div>
+          </div>
+          <!--  -->
+          <!-- question 2 -->
+          <div class="my-5">
+            <p class="lead fw-normal">
+              2. If a ninja has 3 apples, then gives one to mario, and one to
+              yoshi, how many apples does the ninja has left?
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q2" value="A" checked />
+              <label class="form-cehck-label">1 apple</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q2" value="B" />
+              <label class="form-cehck-label">3 apples, 2 corpses</label>
+            </div>
+          </div>
+          <!--  -->
+          <!-- question 3 -->
+          <div class="my-5">
+            <p class="lead fw-normal">
+              3. How do you know when you've met a Ninja?
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q3" value="A" checked />
+              <label class="form-cehck-label">You'd recognize the outfit</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q3" value="B" />
+              <label class="form-cehck-label"
+                >The greem reaper will show you.</label
+              >
+            </div>
+          </div>
+          <!--  -->
+          <!-- question 4 -->
+          <div class="my-5">
+            <p class="lead fw-normal">
+              4. What is a Ninja's favorite array method?
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q4" value="A" checked />
+              <label class="form-cehck-label">forEach()</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q4" value="B" />
+              <label class="form-cehck-label">Slice()</label>
+            </div>
+          </div>
+          <!--  -->
+          <div class="text-center">
+            <input type="submit" class="btn btn-light" />
+          </div>
+        </form>
       </div>
     </div>
     <!--  -->
