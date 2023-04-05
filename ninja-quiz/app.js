@@ -16,6 +16,19 @@ quizForm.addEventListener("submit", function (e) {
       score += 25;
     }
   });
-  result_score.textContent = `${score}%`;
-  showResult.style.display = "block";
+
+  scrollTo(0, 0);
+  showResult.classList.remove("d-none");
+  //
+  // window object
+  let output = 0;
+  const timer = setInterval(() => {
+    result_score.textContent = `${output}%`;
+    if (output === score) {
+      clearInterval(timer);
+    } else {
+      output++;
+    }
+  }, 10);
+  //
 });
