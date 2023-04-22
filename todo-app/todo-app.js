@@ -41,9 +41,9 @@ searchTodo.addEventListener("keyup", (e) => {
 // const newFilteered todos
 const filteredTodo = (term) => {
   Array.from(todos.children)
-    .filter((todo) => !todo.textContent.includes(term))
+    .filter((todo) => !todo.textContent.toLowerCase().includes(term))
     .forEach((todo) => todo.classList.add("filtered"));
   Array.from(todos.children)
-    .filter((todo) => todo.textContent.includes(term))
+    .filter((todo) => todo.textContent.toLowerCase().includes(term))
     .forEach((todo) => todo.classList.remove("filtered"));
 };
