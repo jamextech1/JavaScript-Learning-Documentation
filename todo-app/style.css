@@ -21,3 +21,6 @@ input::-webkit-input-placeholder {
 .delete {
   cursor: pointer;
 }
+.filtered {
+  display: none !important;
+}
