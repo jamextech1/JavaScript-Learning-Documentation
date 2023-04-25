@@ -20,6 +20,7 @@ const updateUI = async (data) => {
   // weather icon
   const iconSrc = `img/icons/${weather.WeatherIcon}.svg`;
   icon.setAttribute("src", iconSrc);
+  /*
   //update time icon
   let timeSrc = null;
   if (weather.IsDayTime) {
@@ -27,6 +28,10 @@ const updateUI = async (data) => {
   } else {
     timeSrc = "img/night.svg";
   }
+  */
+  // using ternary operator to display the image.
+  let timeSrc = weather.IsDayTime ? "img/day.svg" : "img/night.svg";
+
   time.setAttribute("src", timeSrc);
   // remove class display if it's existing
   if (card.classList.contains("d-none")) {
